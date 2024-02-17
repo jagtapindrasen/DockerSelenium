@@ -33,6 +33,7 @@ public class SeleniumGridDocker {
 				System.out.println(d.getTitle());
 				Thread.sleep(3000);      
 				d.quit();		
+				System.out.println("Bapu Krupa Ani");
 
 		}	
 		
