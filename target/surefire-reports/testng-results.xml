@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="22462" started-at="2024-02-17T09:14:24Z" finished-at="2024-02-17T09:14:47Z">
+  <suite name="Suite" duration-ms="25483" started-at="2024-02-17T09:39:50Z" finished-at="2024-02-17T09:40:16Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="22462" started-at="2024-02-17T09:14:24Z" finished-at="2024-02-17T09:14:47Z">
+    <test name="Test" duration-ms="25483" started-at="2024-02-17T09:39:50Z" finished-at="2024-02-17T09:40:16Z">
       <class name="example.SeleniumGridDocker">
-        <test-method status="PASS" signature="startContainer()[pri:0, instance:example.SeleniumGridDocker@5a8806ef]" name="startContainer" is-config="true" duration-ms="15028" started-at="2024-02-17T09:14:09Z" finished-at="2024-02-17T09:14:24Z">
+        <test-method status="PASS" signature="startContainer()[pri:0, instance:example.SeleniumGridDocker@53f65459]" name="startContainer" is-config="true" duration-ms="15048" started-at="2024-02-17T09:39:35Z" finished-at="2024-02-17T09:39:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startContainer -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.SeleniumGridDocker@5a8806ef]" name="testEasy" duration-ms="22439" started-at="2024-02-17T09:14:24Z" finished-at="2024-02-17T09:14:47Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:example.SeleniumGridDocker@53f65459]" name="testEasy" duration-ms="25446" started-at="2024-02-17T09:39:50Z" finished-at="2024-02-17T09:40:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="stopContainer()[pri:0, instance:example.SeleniumGridDocker@5a8806ef]" name="stopContainer" is-config="true" duration-ms="15085" started-at="2024-02-17T09:14:47Z" finished-at="2024-02-17T09:15:02Z">
+        <test-method status="PASS" signature="stopContainer()[pri:0, instance:example.SeleniumGridDocker@53f65459]" name="stopContainer" is-config="true" duration-ms="15489" started-at="2024-02-17T09:40:16Z" finished-at="2024-02-17T09:40:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopContainer -->
