@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="example.NewTest" hash-for-method="testEasy">testEasy</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="example.NewTest" hash-for-method="testMethodsTwo">testMethodsTwo</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="example.SeleniumGridDocker" hash-for-method="testEasy">testEasy</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -125,7 +120,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">example.NewTest</span>
+              <span class="class-name">example.SeleniumGridDocker</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -133,13 +128,6 @@
                   <a name="testEasy">
                   </a> <!-- testEasy -->
                   <span class="method-name">testEasy</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testMethodsTwo">
-                  </a> <!-- testMethodsTwo -->
-                  <span class="method-name">testMethodsTwo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -156,7 +144,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;example.NewTest&quot;/&gt;
+      &lt;class name=&quot;example.SeleniumGridDocker&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -196,20 +184,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testEasy')
-data.setCell(0, 2, 'example.NewTest')
-data.setCell(0, 3, 6507);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testMethodsTwo')
-data.setCell(1, 2, 'example.NewTest')
-data.setCell(1, 3, 19);
+data.setCell(0, 2, 'example.SeleniumGridDocker')
+data.setCell(0, 3, 17391);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -235,23 +219,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">example.NewTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
+              <div class="chronological-class-name">example.SeleniumGridDocker</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startContainer</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-suite before -->
               <div class="test-method">
                 <span class="method-name">testEasy</span>
-                <span class="method-start">2444 ms</span>
+                <span class="method-start">15059 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testMethodsTwo</span>
-                <span class="method-start">8955 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">8977 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">stopContainer</span>
+                <span class="method-start">32544 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
